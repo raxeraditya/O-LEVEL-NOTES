@@ -1,2 +1,194 @@
 # O-LEVEL-NOTES-1
 THIS IS HTML AND CSS NOTES
+introducing html 5
+1.0.0  html stands for hypertext markup language
+
+html is help to create a webpage layout.
+html comments:
+<!--....-->
+
+html can use a tags every tags are open and close tags but some tags are not closing tags:
+	these tags are pronounciate void tgs:
+		list of void tags:
+			1.<area>: used area inside of an image
+			2.<base>: the base url for all relative url's in a document
+			3.<br>: break the line 
+			4.<col>: colum properties for each colum group within a <colgroup> eliment
+			5.<command>,<embled>,<hr>,<img src="source linl">,<input type="text,mail,radio,checkbox">,<keygen>,<link>,<meta>,<param>,<source>,<track>,<wbr>
+<html>
+	<head>
+		<title>title<\title>
+		<link href="#">
+		<style>
+		css
+		<\style>
+	<\head>
+	<body>
+
+	</body>
+<\html>  
+
+1.head tag: this tag content can understand the browser
+2.body tag: this tag show contant on the webpage
+3.style tag: this tag contain a internal css
+
+1. types of tags: to hold a own content area.
+	1.0.0.1 hperlink:
+		<a href="link"><\a> this tag create a link on a webpage text-decoration:none; than color and underline invisible
+	1.0.0.2 image:this is a void tag
+		<img src="link"> create a image on a webpage
+	1.0.0.3 heading tags:
+		<h1>....<\h1>......<h6><\h6> which mean headings are small their increasing the number
+	1.0.0.4 paragraph tag:
+		<p>...<\p> this tag contain to a paragraph
+	1.0.0.5 button tag:
+		<button>...<\button> this tag create a button on webpage
+	1.0.0.6 target attribute:
+		inner a tag like <p target="_blank">....<\p>
+	1.0.0.7 marquee tag:
+		<marquee>....<\marquee> this tag create a movable content like image
+	1.0.0.8 div tag:
+		<div>...<\div> this tag create next type of content:
+	1.0.0.9 alternate: this keyword used to alt="any name" browser not upoad a image but alternate name show
+		<img src="link" alt="any name">
+	1.0.0.10 input tag:
+		this to use a user input
+		<input type="text,mail,radio,checkbox,date,reset,submit" name="any name">
+	1.0.0.11 video tag:
+		<video controls width="400px" height="400px"> 
+			<source src="ff.mp4" type="video/mp4">
+		</video>
+	1.0.0.12 audio tag:
+		<audio controls>
+			<source src="ff.mp3" type="audio/mp3">
+ 		<\audio>
+2. table in html.
+   table tag to create a table in html.
+	<table>...<\table>
+   create a row in table
+	<tr>..<\tr>
+   to create a table data inner a <tr> tag
+	<tr> <td>..<\td> <\tr>
+
+   rowspan in html:
+	<tr rowspan="lines number to cover area">....<\tr>
+	use row span to create every times of tr tag which define to cover of row
+   colspan in html:
+	<td colspan="lines number to cover area">...<\td>
+	use colspan to cover a colum which is write a colspan than left area cover
+   caption tag:
+	<caption>...<\caption> to write a caption 
+
+3. form in html.
+   this design to crate a form a html
+	<select>
+		<option>....<\option>
+	<\select>
+4. list in html.
+ A1. unordered list.
+
+	<ul type="square,circle">
+		<li>...<\li>
+	<\ul>
+ A2. ordered list.
+
+	<ol type="1,i,a">
+		<li>...<\li>
+	<\ol>
+   
+ A3. discription list.
+	<dl>
+		<dt>...</dt>
+		<dl>...<\dl>
+	<\dl>
+
+
+
+							CSS cascading style sheet
+
+1. internal css: style for style tag
+2. inline css: inline style="css property"
+3. external css: use link other file than use
+
+
+A.element selector: like h1{css} h1 is a html selector
+B.grouping selector: like h1,p,h2{css} is a grouping selector
+C.class selector: <p class="box">...<\p> class selector only starts for {dot} like .box
+D.id selector: <p id="box">...<\p> id selector only starts for {hesh} like #box
+E.universal selector: this property used all element only starts for {star} *{css}
+
+1. padding: cover inner side area 
+2. margin: margin created outer area
+ 
+1.0.0.1 some important property in css:
+	p{
+margin:40px;
+padding:40px;
+border-radius:50%;
+color:red;
+text-transform:uppercase;
+font-size:40px;
+}
+
+
+
+
+
+
+position: relative,sticky,absolute,fixed,statick;
+	static: default position
+	relative: element relative itself positiol
+	absolute: posotion relative to its closet positioned ancestors
+	fixed: posotioned relative browser page
+	sticky: position stick to give there top side 
+	position property used any type of posistion than uses top,right,bottom,left
+
+display property:
+
+	/* precomposed values */
+		display: block;
+		display: inline;
+		display: inline-block;
+		display: flex;
+		display: inline-flex;
+	display flex than use justify and align property
+1.justify-content — controls alignment of all items on the main axis.
+2.align-items — controls alignment of all items on the cross axis.
+3.align-self — controls alignment of an individual flex item on the cross axis.
+4.align-content — described in the spec as for "packing flex lines"; controls space between flex lines on the cross axis.
+5.gap, column-gap, and row-gap — used to create gaps or gutters between flex items.
+
+
+1.0.0.2 relative unit property in css:
+	% property is oquepie the percentage aria of ancestors
+	2em that means 2 times of parent font size
+	2rem that means 2 times of body element
+
+
+1.0.0.3 keyframes and media queries:
+	kerframes name{
+			frome{
+			visibility: visible:
+			}
+			to{
+			visibility: hidden;
+			}
+			%{
+			any property
+			}
+			}
+
+
+1.0.0.4 how to use animation 
+p{
+aimation-name:name;
+animation-duration:2ms;
+animation-iteration-count:infinite;
+animation-delay:0.2ms;
+}
+
+	
+
+ 
+
+	
