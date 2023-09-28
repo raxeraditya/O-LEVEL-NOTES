@@ -60,6 +60,10 @@ html can use a tags every tags are open and close tags but some tags are not clo
 		<audio controls>
 			<source src="ff.mp3" type="audio/mp3">
  		<\audio>
+	1.0.0.13 iframes :
+		<iframes src="https://www.web.com">
+			it stands for inline frame create a page ant website in one page
+		</iframes>
 2. table in html.
    table tag to create a table in html.
 	<table>...<\table>
@@ -141,7 +145,7 @@ position: relative,sticky,absolute,fixed,statick;
 	sticky: position stick to give there top side 
 	position property used any type of posistion than uses top,right,bottom,left
 
-display property:
+display property: 
 
 	/* precomposed values */
 		display: block;
@@ -150,6 +154,7 @@ display property:
 		display: flex;
 		display: inline-flex;
 	display flex than use justify and align property
+	flex property can work only parent tag
 1.justify-content — controls alignment of all items on the main axis.
 2.align-items — controls alignment of all items on the cross axis.
 3.align-self — controls alignment of an individual flex item on the cross axis.
