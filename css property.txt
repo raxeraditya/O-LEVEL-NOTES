@@ -1,0 +1,44 @@
+two div under one parent show content verticaly
+
+writing-mode:vertical-lr
+writing-mode:vertical-rl
+can child boxes adjust verticaly
+flex-flow: column
+flex-direction:column;
+
+
+transition:  
+	scale property use no pixel and cm
+	transitio: ALL ease time;
+
+diffrent color in one box:
+	background: lenear-gradiant(to left,bottom,red,blue);
+	padding:2px;
+h1{
+-webkit-text-stroke:4px black;
+color:transparent;
+}
+
+create a image shadow
+filter:drop-shadow(10px 10px 20px black);
+third value create a blur
+first value = xaxis
+second value = yaxis
+
+
+inner text image
+background-image:url("url");
+background-clip:text;
+-webkit-background-clip:text;
+color:transparent;
+
+
+scale property can increase or decrease size
+but img div outside than inner box overflow hidden
+
+
+
+
+filter can work img
+filter:blur(),brightness(0.4),drop-shadow(19px 19px 20px blue);
+third num set blurness
