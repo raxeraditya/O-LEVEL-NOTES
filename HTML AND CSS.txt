@@ -1,5 +1,5 @@
 introducing html 5
-1.0.0  html stands for hypertext markup language
+1.0.0  html stands for hypertext markup languag
 
 html is help to create a webpage layout.
 html comments:
