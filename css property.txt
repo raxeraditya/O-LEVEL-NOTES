@@ -4,7 +4,7 @@ writing-mode:vertical-lr
 writing-mode:vertical-rl
 can child boxes adjust verticaly
 flex-flow: column
-flex-direction:column;
+flex-direction:colu
 
 
 transition:  
