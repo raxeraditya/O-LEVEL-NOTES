@@ -1,5 +1,5 @@
 introducing html 5
-1.0.0  html stands for hypertext markup languag
+1.0.0  html stands for hypertext markup language
 
 html is help to create a webpage layout.
 html comments:
@@ -32,7 +32,7 @@ html can use a tags every tags are open and close tags but some tags are not clo
 
 1. types of tags: to hold a own content area.
 	1.0.0.1 hperlink:
-		<a href="link"><\a> this tag create a link on a webpage text-decoration:none; than color and underline invisible
+		<a href="link" target="name of iframe to set a name use iframe name"><\a> this tag create a link on a webpage text-decoration:none;
 	1.0.0.2 image:this is a void tag
 		<img src="link"> create a image on a webpage
 	1.0.0.3 heading tags:
@@ -51,7 +51,7 @@ html can use a tags every tags are open and close tags but some tags are not clo
 		<img src="link" alt="any name">
 	1.0.0.10 input tag:
 		this to use a user input
-		<input type="text,mail,radio,checkbox,date,reset,submit" name="any name">
+		<input type="text,mail,radio,checkbox,date,reset,submit" name="any name" for="roll">
 	1.0.0.11 video tag:
 		<video controls width="400px" height="400px"> 
 			<source src="ff.mp4" type="video/mp4">
@@ -61,9 +61,11 @@ html can use a tags every tags are open and close tags but some tags are not clo
 			<source src="ff.mp3" type="audio/mp3">
  		<\audio>
 	1.0.0.13 iframes :
-		<iframes src="https://www.web.com">
+		<iframes src="https://www.web.com" name = "anchor tag target">
 			it stands for inline frame create a page ant website in one page
 		</iframes>
+	1.0.0.14 lable tag:
+		<label for="roll">__</label> click label to open input tag to set id="roll"
 2. table in html.
    table tag to create a table in html.
 	<table>...<\table>
